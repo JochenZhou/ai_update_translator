@@ -1,0 +1,31 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "AI 更新翻译官",
+                "description": "请选择用于翻译的 AI 引擎（对话实体）和自定义 Prompt。",
+                "data": {
+                    "ai_engine": "AI 引擎",
+                    "prompt": "翻译 Prompt"
+                }
+            }
+        },
+        "error": {
+            "no_ai_engines": "未发现已配置的 AI 对话引擎，请先安装集成并配置 AI (如 OpenAI, Google AI 等)。",
+            "cannot_connect": "连接 AI 引擎失败，请检查配置。"
+        },
+        "abort": {
+            "already_configured": "该 AI 更新翻译官已配置完毕。"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "ai_engine": "AI 引擎",
+                    "prompt": "翻译 Prompt"
+                }
+            }
+        }
+    }
+}

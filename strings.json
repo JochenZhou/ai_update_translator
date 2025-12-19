@@ -1,0 +1,31 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "AI Update Translator",
+                "description": "Choose an AI engine (conversation entity) and custom prompt for translations.",
+                "data": {
+                    "ai_engine": "AI 代理",
+                    "prompt": "自定义 Prompt"
+                }
+            }
+        },
+        "error": {
+            "no_ai_engines": "No conversation AI engines found. Please install and configure an AI integration (e.g., OpenAI, Google AI) first.",
+            "cannot_connect": "Failed to connect to the AI engine."
+        },
+        "abort": {
+            "already_configured": "This integration is already configured."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "ai_engine": "AI 代理",
+                    "prompt": "自定义 Prompt"
+                }
+            }
+        }
+    }
+}

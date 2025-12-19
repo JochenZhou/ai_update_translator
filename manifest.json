@@ -1,0 +1,17 @@
+{
+  "domain": "ai_update_translator",
+  "name": "AI 更新翻译官",
+  "documentation": "https://github.com/farion1231/ai_update_translator",
+  "issue_tracker": "https://github.com/farion1231/ai_update_translator/issues",
+  "dependencies": [
+    "conversation"
+  ],
+  "codeowners": [
+    "@farion1231"
+  ],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "version": "1.0.1",
+  "requirements": [],
+  "single_instance": true
+}
