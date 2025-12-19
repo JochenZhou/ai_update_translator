@@ -18,7 +18,7 @@
 
 1. 打开 Home Assistant，进入 **HACS** 面板。
 2. 点击右上角的三个点，选择 **自定义存储库 (Custom repositories)**。
-3. 输入地址：`https://github.com/farion1231/ai_update_translator`
+3. 输入地址：`https://github.com/JochenZhou/ai_update_translator`
 4. 类别选择 **集成 (Integration)**。
 5. 点击 **添加**，然后在列表中找到 **AI 更新翻译官** 并点击 **下载**。
 6. 重启 Home Assistant。
@@ -45,7 +45,7 @@
 
 ## 👤 作者
 
-[@farion1231](https://github.com/farion1231)
+[@JochenZhou](https://github.com/JochenZhou)
 
 ## 📄 许可证
 
